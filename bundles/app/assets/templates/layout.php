@@ -1,29 +1,27 @@
 <?php $this->layout('app:html');?>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    Brave Solutions
-                </a>
-                <a class="navbar-brand" href="/">
-                    Concepts
-                </a>
-                <a class="navbar-brand" href="/">
-                    Vision
-                </a>
-                <a class="navbar-brand" href="/">
-                    Portfolio
-                </a>
-                <a class="navbar-brand" href="/">
-                    Contact
-                </a>
-            </div>
-            <div class="nav navbar-nav navbar-right">
-                    <p class="navbar-text">
-                        <span class="glyphicon glyphicon-log-out"></span></a>
-                    </p>
-            </div>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Brave</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
-
+</header>
 <?php $this->childContent(); ?>

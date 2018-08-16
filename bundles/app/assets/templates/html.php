@@ -9,6 +9,7 @@
     <link href="/bundles/app/bootstrap.min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
     <link href="/css/carousel.css" rel="stylesheet">
+    <link href="/css/aboutMe.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
 </head>
 <body>

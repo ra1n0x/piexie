@@ -11,7 +11,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="<?=$this->httpPath(
+                        'app.processor',
+                        array('processor' => 'aboutMe')
+                    )?>"><span class="sr-only"></span> Über mich</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>

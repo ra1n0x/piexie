@@ -76,8 +76,8 @@ $this->set('pageTitle', "Welcome");
             <div class="col-lg-4">
                 <img class="rounded-circle" src="/images/customized.jpg" alt="Generic placeholder image" width="140"
                      height="140">
-                <h2>Personalisiert</h2>
-                <p>Konkrete Wünsche für Funktionalitäten. <br> Von Anfang an für Sie umgetzt.</p>
+                <h2>SEO</h2>
+                <p>Suchmaschienen Optimiert. <br> Nach den aktuell bekannten Algorythmen.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
@@ -93,8 +93,6 @@ $this->set('pageTitle', "Welcome");
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="/images/test2.jpeg"
-                     alt="Generic placeholder image">
             </div>
         </div>
 
@@ -109,8 +107,6 @@ $this->set('pageTitle', "Welcome");
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                     alt="Generic placeholder image">
             </div>
         </div>
 
@@ -124,12 +120,23 @@ $this->set('pageTitle', "Welcome");
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                     alt="Generic placeholder image">
             </div>
         </div>
 
         <hr class="featurette-divider">
+
+
+        <div class="row featurette">
+            <div class="col-md-7 offset-md-3"">
+                <h2 class="featurette-heading">Wer  <span class="text-muted"> bin ich </span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+                <div class="col-md-5 order-md-1">
+            </div>
+        </div>
+
 
         <!-- /END THE FEATURETTES -->
 

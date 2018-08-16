@@ -61,26 +61,34 @@ $this->set('pageTitle', "Welcome");
                      height="140">
                 <h2>Responsive</h2>
                 <p>Sowohl auf dem Desktop als auch Mobil erleben</p>
-                <p><a class="btn btn-secondary" href="<?=$this->httpPath(
-                        'app.processor',
-                        array('processor' => 'ideas')
-                    )?>" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" src="/images/dynamic.jpeg" alt="Generic placeholder image" width="140"
                      height="140">
                 <h2>Dynamisch</h2>
                 <p>Es wird Komplexer. <br> Dynamisch gelöst mit einem Webstack</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" src="/images/customized.jpg" alt="Generic placeholder image" width="140"
                      height="140">
                 <h2>SEO</h2>
                 <p>Suchmaschienen Optimiert. <br> Nach den aktuell bekannten Algorythmen.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+        <div class="row">
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="<?=$this->httpPath(
+                        'app.processor',
+                        array('processor' => 'ideas')
+                    )?>" role="button">View details &raquo;</a></p></div>
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+        </div>
 
         <hr class="featurette-divider">
 
@@ -128,7 +136,7 @@ $this->set('pageTitle', "Welcome");
 
         <div class="row featurette">
             <div class="col-md-7 offset-md-3"">
-                <h2 class="featurette-heading">Wer  <span class="text-muted"> bin ich </span></h2>
+                <h2 class="featurette-heading">Wer  <span class="text-muted"> sind wir</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
                     euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
                     tellus ac cursus commodo.</p>
@@ -136,11 +144,49 @@ $this->set('pageTitle', "Welcome");
                 <div class="col-md-5 order-md-1">
             </div>
         </div>
-
-
         <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <div class="col-lg-4 offset-md-8">
+                <img class="rounded-circle" src="/images/res.jpeg" alt="Generic placeholder image" width="140"
+                     height="140">
+            </div>
+                <h2 class="display-5">Andreas Muth</h2>
+                <p class="lead nice-font">- Fachinformatiker Anwendungsentwicklung</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                            <p class="lead black-font">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                                felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <div class="col-lg-4">
+                <img class="rounded-circle" src="/images/res.jpeg" alt="Generic placeholder image" width="140"
+                     height="140">
+            </div>
+                <h2 class="display-5">Leon Sander</h2>
+                <p class="lead nice-font">- B. Sc. Wirtschaftsinformatik</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
 
 
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead white-font">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
 </main>
